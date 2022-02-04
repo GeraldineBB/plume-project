@@ -3,16 +3,16 @@ import db from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const Product = db.define ('stories', {
-    title : {
-        type: DataTypes.STRING
+const Product = db.define ('follows', {
+    id : {
+        type: DataTypes.INTEGER
     },
-    story : {
+    follow_name : {
         type: DataTypes.STRING
     }, 
-    // follow_id: {
-    //     type: DataTypes.INTEGER
-    // }
+    follow_content : {
+        type: DataTypes.STRING
+    }, 
 }, {
     freezeTableName: true
 }); 

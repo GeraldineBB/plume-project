@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom'; 
+import './EditStory.css'; 
 
 const EditProduct = () => {
     
@@ -34,7 +35,7 @@ const EditProduct = () => {
 
         <div>
 
-            <form onSubmit={updateProduct}>
+            <form onSubmit={updateProduct} className="form">
 
                 <div className="field">
                     <label className="label"> Nom du produit </label>
