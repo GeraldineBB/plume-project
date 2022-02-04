@@ -1,0 +1,24 @@
+.searchBar {
+
+
+    background-image: repeating-linear-gradient(184deg, rgb(25,13,42) 0px, rgb(25,13,42) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(263deg, rgb(25,13,42) 0px, rgb(25,13,42) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(31deg, rgb(25,13,42) 0px, rgb(25,13,42) 19px,transparent 19px, transparent 21px),linear-gradient(90deg, rgb(229, 116, 117),rgb(178,184,223));
+
+    padding-bottom: 2%;
+
+
+}
+
+.searchBar__title {
+    padding-top: 7%;
+    padding-bottom: 3%;
+    color: #f9b609; 
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.story {
+    width: 30%;
+    background-color: #f9b609;
+    margin: 3%;
+    border-radius: 1%;
+}
