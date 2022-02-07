@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 import './EditStory.css';
 
-const EditProduct = () => {
+const EditStory = () => {
 
     const [title, setTitle] = useState('');
     const [story, setStory] = useState('');
@@ -114,4 +114,4 @@ const EditProduct = () => {
 
 }
 
-export default EditProduct;
+export default EditStory;
