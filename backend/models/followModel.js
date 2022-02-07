@@ -3,7 +3,7 @@ import db from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const Product = db.define ('follows', {
+const Follow = db.define ('follows', {
     id : {
         type: DataTypes.INTEGER
     },
@@ -17,4 +17,4 @@ const Product = db.define ('follows', {
     freezeTableName: true
 }); 
 
-export default Product; 
+export default Follow; 
