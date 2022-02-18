@@ -10,6 +10,9 @@ const Product = db.define ('stories', {
     story : {
         type: DataTypes.STRING
     }, 
+    // follow_id: {
+    //     type: DataTypes.INTEGER
+    // }
 }, {
     freezeTableName: true
 }); 

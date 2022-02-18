@@ -2,9 +2,9 @@ import './App.css';
 import {
   useLocation, Route, Routes, Navigate,
 } from 'react-router-dom';
-import ProductList from './components/ProductList/index';
+import ProductList from './components/StoryList/index';
 import AddStories from './components/AddStories/AddStories';
-import EditProduct from './components/EditProduct/EditProduct';
+import EditStory from './components/EditStory/EditStory';
 import Contextbutton from './components/ContextButton/ContextButton';
 
 import { UserProvider } from "./contexts/User"
@@ -33,7 +33,7 @@ function App() {
               <Routes>
 
                 <Route path="/" element={<ProductList />} />
-                <Route path="/edit/:id" element={<EditProduct />} />
+                <Route path="/edit/:id" element={<EditStory />} />
                 <Route path="/add" element={<AddStories />} />
 
               </Routes>

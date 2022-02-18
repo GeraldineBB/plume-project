@@ -1,0 +1,22 @@
+.addSection {
+    background-image: repeating-linear-gradient(184deg, rgb(25,13,42) 0px, rgb(25,13,42) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(263deg, rgb(25,13,42) 0px, rgb(25,13,42) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(31deg, rgb(25,13,42) 0px, rgb(25,13,42) 19px,transparent 19px, transparent 21px),linear-gradient(90deg, rgb(229, 116, 117),rgb(178,184,223));
+    height: 200px;
+
+    display: flex; 
+    justify-content: space-around;
+}
+
+img{
+    size: 30%;
+}
+
+.addSection__img {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.addSection__txt {
+    padding-top: 4%;
+    color: white;
+    font-size: 1.2rem;
+}
